@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+}
+
+.block1{
+    border-radius: 25px;
+    padding: 35px 15px;
+    max-width: 500px;
+    max-height: 160px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter:blur(16px);
+    margin: 30vh;
+}
+
+.block1 h1{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+}
